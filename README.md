@@ -18,7 +18,9 @@ Herramienta de línea de comandos que **encuentra archivos duplicados por su con
 - **Seguro**: modo `--simular`, cuarentena con manifiesto JSON y restauración que **nunca sobrescribe**.
 - **Correcto**: ignora enlaces simbólicos, no confunde enlaces duros ni rutas solapadas con duplicados, y verifica que el archivo no haya cambiado antes de moverlo.
 - **Informes**: resumen en consola ordenado por espacio recuperable y exportación a JSON.
-- **Sin dependencias**: solo la biblioteca estándar de Python. Funciona en Windows, Linux y macOS.
+- **Sin dependencias**: solo la biblioteca estándar de Python. Funciona en Windows y Linux.
+
+> ⚠️ **macOS: no funciona por ahora.** Solo está probado y soportado en Windows y Linux.
 
 ## 📦 Instalación
 
